@@ -1,0 +1,117 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.box1 h1 {
+    font-family: cursive;
+    font-size: 48px;
+    color: rgb(0, 0, 0);
+}
+
+.box2 h1 {
+    font-family: cursive;
+    font-size: 48px;
+    color: rgb(227, 227, 227);
+}
+
+.box3 h1 {
+    font-family: cursive;
+    font-size: 48px;
+    color: rgb(215, 224, 38);
+}
+button{
+    background-color: rgb(61, 238, 61);
+    border: 0px solid black;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(5, 3, 35);
+    font-family:cursive;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.box1 button{
+    width: 115px;
+    height: 45px;
+}
+.box2 button{
+    width: 120px;
+    height: 45px;
+    
+}
+.box3 button{
+    width: 70px;
+    height: 40px;
+
+}
+
+.box1 {
+
+    background-image: url(pexels-pixabay-531880.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    margin-top: 0px;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    background-image: url(download.jfif);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 {
+    background-image: url(download\ \(1\).jfif);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:550px){
+    .box1 h1,
+    .box2 h1,
+    .box3 h1{
+        font-size: 20px;
+    }
+    button{
+        font-size: 15px;    
+    }
+    
+    .box1 button{
+        width: 85px;
+        height: 35px;
+    }
+    .box2 button{
+        width: 90px;
+        height: 35px;
+        
+    }
+    .box3 button{
+        width: 56px;
+        height: 30px;
+    
+    }
+}
